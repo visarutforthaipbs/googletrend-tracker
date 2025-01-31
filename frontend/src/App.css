@@ -1,0 +1,50 @@
+/* ✅ General Card Styling */
+.card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #232323;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #ffffff;
+  width: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.2); /* ✅ Ensures all cards have a border */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.3);
+}
+
+/* ✅ Breaking News Card */
+.breaking-news {
+  border: 3px solid #ff5252;
+  box-shadow: 0 6px 15px rgba(255, 82, 82, 0.7);
+}
+
+/* ✅ Heading Styling */
+h4 {
+  color: #a97aff;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* ✅ Trend Title & Text */
+.trend-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.trend-searches {
+  font-size: 0.9rem;
+  color: #ffcc00;
+}
+
+/* ✅ Scrolling Wrapper */
+.scrolling-wrapper {
+  height: 75vh;
+  width: 80vw;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
